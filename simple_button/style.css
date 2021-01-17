@@ -1,0 +1,32 @@
+:root {
+    --color1: #9dc88d;
+    --color2: #164a41;
+    --color3: #f1b24a;
+    --color4: #ffffff;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+button {
+    background-color: var(--color3);
+    color: var(--color2);
+    font-size: 2em;
+    border: none;
+    border-radius: .2em;
+    padding: .5em;
+    line-height: 1.5em;
+    margin-top: 2em;
+}
+
+p {
+    color: var(--color4);
+    font-size: 3em;
+}
