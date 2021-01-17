@@ -56,13 +56,14 @@ input[type=text] {
     color: var(--white )
 }
 
-input[type=button], #print{
+input[type=button], #print, #refresh {
     font-family: var(--font);
     font-size: 1em;
     background-color: var(--blackish);
     color: var(--white);
     border-color: var(--egg-yellow);
     border-radius: var(--radius);
+    margin: .2em;
 }
 
 #print {

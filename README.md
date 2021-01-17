@@ -11,8 +11,8 @@
 ## Tasks
 * Positive or negative number
 * Write number between
-*
-*
+* Simple button "click me" and "refresh page"
+* Jumped button
 
 ## Technologies
 * HTML

@@ -8,3 +8,8 @@ function wypisz() {
     }
     document.getElementById("result-box").innerHTML = napis;
 }
+
+
+function refreshPage() {
+    window.location.reload();
+}

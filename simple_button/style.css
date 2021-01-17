@@ -26,7 +26,12 @@ button {
     margin-top: 2em;
 }
 
+button:hover {
+    background-color: var(--color4);
+}
+
 p {
     color: var(--color4);
     font-size: 3em;
+    margin: 1em;
 }

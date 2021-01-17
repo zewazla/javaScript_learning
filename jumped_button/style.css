@@ -1,0 +1,32 @@
+:root {
+    --color1: #36008d;
+    --color2: #ffb31c;
+    --color3: #00c9b8;
+    --color4: #ffffff;
+}
+
+body {
+    background-color: var(--color3);
+    font-size: 2em;
+}
+.jump_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left_button, #right_button {
+    background-color: var(--color2);
+    font-size: 1em;
+    border: none;
+    border-radius: .2em;
+    padding: .2em;
+    width: 5em;
+}
+
+#right_button {
+    background-color: var(--color1);
+}
+
+#left_button:hover, #right_button:hover {
+    background-color: var(--color4);
+}
