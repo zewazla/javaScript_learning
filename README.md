@@ -11,6 +11,8 @@
 ## Tasks
 * Positive or negative number
 * Write number between
+*
+*
 
 ## Technologies
 * HTML
@@ -19,7 +21,9 @@
 
 ## Features
 To-do list:
-* add JavaScript form validation to contact page
+* 
+*
+*
 
 ## Status
 Tasks: _in progress_
