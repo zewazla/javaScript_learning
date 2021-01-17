@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program obliczający przedział liczbowy.</title>
+</head>
+
+<body>
+    <span>Przedział liczbowy.</span>
+    <div class="input-box">
+        <label for="input1">liczba 1:</label>
+        <input id="input1" type="text" onfocus="this.value=''">
+        <label for="input1">liczba 2:</label>
+        <input id="input2" type="text" onfocus="this.value=''">
+    </div>
+    <input type="button" value="Pokaż" onclick="wypisz()">
+
+    <div id="result-box">
+        wynik ...
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
